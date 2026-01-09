@@ -1,0 +1,32 @@
+ÉVALUATION DES RÉSULTATS
+
+ AVEC TARGET (FIRE):
+----------------------------------------
+
+KMeans:
+  ARI (Adjusted Rand Index): -0.0007
+  NMI (Normalized Mutual Information): 0.0002
+
+DBSCAN:
+  ARI (Adjusted Rand Index): 0.0000
+  NMI (Normalized Mutual Information): 0.0000
+
+ SANS TARGET:
+----------------------------------------
+
+KMeans:
+  Clusters: 2
+  Points de bruit: 0%
+  Silhouette Score: 0.0702
+  Calinski-Harabasz: 2708.0872
+  Davies-Bouldin: 3.4633
+  Dunn Index: 0.0598
+
+DBSCAN:
+  Clusters: 82
+  Points de bruit: 3.8%
+  Silhouette Score : -0.7282
+  Calinski-Harabasz Index: 692.98
+  Davies-Bouldin Index : 0.7805
+  Dunn Index: 0.0867
+  

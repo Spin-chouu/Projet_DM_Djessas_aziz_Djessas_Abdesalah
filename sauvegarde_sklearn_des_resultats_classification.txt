@@ -1,0 +1,134 @@
+
+ DATASET: SMOTE+TOMEK | OPTIMISATION: NON
+================================================================================
+
+
+KNN:
+  Accuracy:  0.6966
+  Precision: 0.4534
+  Recall:    0.2747
+  F1-Score:  0.3421
+  AUC-ROC:   0.6144
+
+Decision Tree:
+  Accuracy:  0.8934
+  Precision: 0.9270
+  Recall:    0.6828
+  F1-Score:  0.7864
+  AUC-ROC:   0.9223
+
+Random Forest:
+  Accuracy:  0.8681
+  Precision: 0.9498
+  Recall:    0.5710
+  F1-Score:  0.7132
+  AUC-ROC:   0.9581
+
+================================================================================
+DATASET: DÉSÉQUILIBRÉ | OPTIMISATION: OUI
+================================================================================
+
+KNN:
+  Accuracy:  0.7012
+  Precision: 0.3285
+  Recall:    0.1842
+  F1-Score:  0.2351
+  AUC-ROC:   0.5948
+
+Decision Tree:
+  Accuracy:  0.8915
+  Precision: 0.8620
+  Recall:    0.5728
+  F1-Score:  0.6863
+  AUC-ROC:   0.8952
+
+Random Forest (classique):
+  Accuracy:  0.9031
+  Precision: 0.9014
+  Recall:    0.6015
+  F1-Score:  0.7208
+  AUC-ROC:   0.9186
+
+Random Forest (équilibré):
+  Accuracy:  0.8950
+  Precision: 0.8420
+  Recall:    0.7230
+  F1-Score:  0.7780
+  AUC-ROC:   0.9350
+
+================================================================================
+DATASET: TOMEK LINKS | OPTIMISATION: OUI
+================================================================================
+
+
+KNN:
+  Accuracy:  0.7248
+  Precision: 0.4012
+  Recall:    0.2418
+  F1-Score:  0.3026
+  AUC-ROC:   0.6315
+
+Decision Tree:
+  Accuracy:  0.9124
+  Precision: 0.8863
+  Recall:    0.6782
+  F1-Score:  0.7689
+  AUC-ROC:   0.9285
+
+Random Forest:
+  Accuracy:  0.9235
+  Precision: 0.9156
+  Recall:    0.7034
+  F1-Score:  0.7956
+  AUC-ROC:   0.9428
+
+================================================================================
+DATASET: SMOTE | OPTIMISATION: OUI
+================================================================================
+
+KNN:
+  Accuracy:  0.7521
+  Precision: 0.4689
+  Recall:    0.3152
+  F1-Score:  0.3774
+  AUC-ROC:   0.6589
+
+Decision Tree:
+  Accuracy:  0.9382
+  Precision: 0.9036
+  Recall:    0.8315
+  F1-Score:  0.8661
+  AUC-ROC:   0.9574
+
+Random Forest:
+  Accuracy:  0.9458
+  Precision: 0.9284
+  Recall:    0.8429
+  F1-Score:  0.8869
+  AUC-ROC:   0.9632
+
+================================================================================
+DATASET: SMOTE+TOMEK | OPTIMISATION: OUI
+================================================================================
+
+KNN:
+  Accuracy:  0.7410
+  Precision: 0.4986
+  Recall:    0.3335
+  F1-Score:  0.3996
+  AUC-ROC:   0.6673
+
+Decision Tree:
+  Accuracy:  0.9537
+  Precision: 0.9197
+  Recall:    0.8994
+  F1-Score:  0.9094
+  AUC-ROC:   0.9658
+
+Random Forest:
+  Accuracy:  0.9471
+  Precision: 0.9466
+  Recall:    0.8487
+  F1-Score:  0.8918
+  AUC-ROC:   0.9750
+
